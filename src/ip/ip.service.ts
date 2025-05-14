@@ -8,6 +8,6 @@ export class IpService {
     const publicIp = await publicIpRes.json();
 
     // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-    return publicIp;ors
+    return publicIp;
   }
 }
