@@ -4,9 +4,6 @@ on:
   pull_request:
     branches: [master]
     types: [closed]
- # pull_request:
- #   branches: [main]
- #   types: [opened, synchronize]
 
 jobs:
   avoid_reduncy:
